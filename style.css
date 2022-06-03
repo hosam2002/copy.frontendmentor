@@ -1,0 +1,584 @@
+body
+{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    font-family: "maven pro";
+    
+
+}
+
+.main-header .image
+{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /*background-color: #DDD;*/
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.section-content
+{
+    font-size: 18px;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+
+.section-content p
+{
+    font-size: 15px;
+}
+
+.section-btn
+{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    /*background: #DDD;*/
+    width: 25%;
+    margin-top: 30px;
+    position: relative
+}
+
+.section-btn > button
+{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn-opacity1
+{
+    left: 15px;
+    position: absolute;
+    width: 150px;
+    height: 35px;  
+    border-radius: 20px;
+    /*background-color: #DDD;*/
+}
+
+.btn-opacity2
+{
+    right: 15px;
+    position: absolute;
+    width: 150px;
+    height: 35px;  
+    border-radius: 20px;
+    /*background-color: #DDD;*/
+}
+
+.btn1
+{
+    background-color: #20bea7;
+}
+
+.btn2
+{
+    background-color: #6174ff;
+}
+
+.first-article
+{
+    margin-top: 100px;
+}
+
+.first-article section
+{
+    text-align: center;
+    color:hsl(210, 10%, 33%)
+}
+
+.first-article section h1
+{
+    font-size: 25px;
+}
+
+.first-article section p
+{
+    font-size: 15px;
+    line-height: 25px
+}
+
+.second-article
+{
+    margin-top: 40px;
+    height: 572px;
+    /*background: #DDD;*/
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.side-image
+{
+    width: 50%;
+    height: 100%;
+    /*background: #F00;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-image img /* 752 572 */
+{
+    width: 652px;
+    height: 472px;
+}
+
+
+.side-content
+{
+    width: 50%;
+    height: 60%;
+
+    /*background: #0FF;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 100px;
+
+}
+
+.side-content > section
+{
+    /*background: #DDD;*/
+    width: 100%;
+    height: 100px;
+    padding-left: 60px;
+    margin-bottom: 35px;
+    color:hsl(210, 10%, 33%);
+}
+
+.sec-1 p
+{
+    font-size: 15px;
+    line-height: 25px
+}
+
+.sec-2 p
+{
+    font-size: 15px;
+    line-height: 25px
+}
+
+.sec-3 p
+{
+    font-size: 15px;
+    line-height: 25px
+}
+
+.third-article
+{
+    /*background: #DDD;*/
+    text-align: center;
+    color:hsl(210, 10%, 33%);
+    
+}
+
+.third-article h1
+{
+    font-size: 25px;
+}
+
+.third-article section p
+{
+    font-size: 15px;
+    line-height: 25px
+}
+
+
+.fourth-article /* Computer Image */
+{
+    /*background: #DDD;*/
+    margin-top: 80px;
+
+    display: flex;
+}
+
+.fourth-article-image /* 905 575 */
+{
+    width: 100%;
+    /*background: #F00;*/
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.mid-article /* Workflow */
+{
+    margin-top: 80px;
+    /*background: #DDD;*/
+}
+
+.mid-article section
+{
+    text-align: center;
+}
+
+.mid-article section h1
+{
+    font-size: 25px;
+    color: hsl(210, 10%, 33%);
+}
+
+.mid-article section p
+{
+    font-size: 15px;
+}
+
+
+
+.info-art /* Blacklist Text and Preview */
+{
+    margin: 55px auto 0;
+    /*background: #DDD;*/
+    width: 80%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-art > section
+{
+    width: 350px;
+    height: 350px;
+
+}
+
+.box1 header .sec-image
+{
+    display: flex;
+    justify-content: center;
+    /*background-color: #DDD;*/
+    padding-top: 60px;
+}
+
+.box1 header .sec-header
+{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    color:hsl(210, 10%, 33%);
+}
+
+.content p
+{
+    text-align: center;
+    color:hsl(210, 10%, 33%);
+}
+
+
+.box2 header .sec-image2
+{
+    /*background-color: #DDD;*/
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.sec-header2
+{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    color:hsl(210, 10%, 33%);
+}
+
+.content2 p
+{
+    text-align: center;
+    color:hsl(210, 10%, 33%);
+}
+
+.box3
+{
+    /*background-color: #0FF;*/
+}
+
+.sec-image3
+{
+    /*background: #DDD;*/
+
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.sec-header3
+{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    color:hsl(210, 10%, 33%);
+}
+
+.content3
+{
+    text-align: center;
+    color:hsl(210, 10%, 33%);
+}
+
+
+
+.share-art    /* Google/IBM/Microsoft/Packard/Vector Graphic */
+{
+    display: flex;
+    /*background: #DDD;*/
+
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+.share-art> section
+{
+    /*background: #F00;*/
+    width: 250px;
+    height: 250px;
+}
+
+.sec1 /* 165 49*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sec2 /* 139 51*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3 /* 161 35*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4 /* 135 56*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5 /* 125 30*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download > header
+{
+    /*background: #DDD;*/
+    text-align: center;
+    color:hsl(210, 10%, 33%);
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.parent-button
+{
+    display: flex;
+    margin: auto;
+    /*background: #DDD;*/
+    width: 25%;
+
+    justify-content: space-around;
+    position: relative;
+}
+
+
+.parent-button > button
+{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 12px;
+    cursor: pointer
+}
+
+.btn-opacity3
+{
+    position: absolute;
+    left: 15px;
+    width: 150px;
+    height: 35px;  
+    border-radius: 20px;
+
+    /*background: #DDD;*/
+}
+
+.btn-opacity4
+{
+    position: absolute;
+    right: 15px;
+    width: 150px;
+    height: 35px;  
+    border-radius: 20px;
+
+    /*background: #DDD;*/
+}
+
+.button1
+{
+    background-color: #20bea7;
+}
+
+.button2
+{
+    background-color: #6174ff;;
+}
+
+
+.last-article
+{
+    width: 100%;
+    background: #f5f6f8;
+    margin:  150px auto 40px;
+
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.last-article > section
+{
+    width: 350px;
+    height: 150px;
+    /*background: #0FF;*/
+}
+
+
+section.left
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.mid
+{
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+section.mid > section
+{
+    width: 100%;
+    height: 30%;
+    /*background: #F00;*/
+}
+
+section.mid1
+{
+    display: flex;
+    align-items: center;
+}
+
+section.mid2
+{
+    display: flex;
+    align-items: center;
+}
+
+section.mid1 ul li
+{
+    display: inline-block;
+    padding-right: 83px;
+    color:hsl(210, 10%, 33%);
+}
+
+section.mid2 ul li
+{
+    display: inline-block;
+    padding-right: 40px;
+    color: hsl(210, 10%, 33%);
+}
+
+section.mid1 ul li a
+{
+    text-decoration: none;
+    color:hsl(210, 10%, 33%)
+    
+}
+
+section.mid2 ul li a
+{
+    text-decoration: none;
+    color:hsl(210, 10%, 33%)    
+}
+
+section.mid1 ul li a:hover
+{
+    color:#20bea7;
+}
+
+section.mid2 ul li a:hover
+{
+    color:#20bea7;
+}
+
+section.right
+{
+    width: 500px;
+    box-sizing: border-box;
+}
+
+section.right
+{
+    display: flex;
+    align-items: center;
+    padding-left: 240px;
+}
+
+section.right img
+{
+    padding-right: 20px;
+}
+
+
+footer
+{
+    margin-top: 30px;
+}
+
+/* Button Hover */
+
+.btn-opacity1:hover
+{
+    background-color: rgba(221, 221, 221, 0.392);
+}
+
+.btn-opacity2:hover
+{
+    background-color: rgba(221, 221, 221, 0.392);
+}
+
+.btn-opacity3:hover
+{
+    background-color: rgba(221, 221, 221, 0.392);
+}
+
+.btn-opacity4:hover
+{
+    background-color: rgba(221, 221, 221, 0.392);
+}
